@@ -33,7 +33,7 @@ public class studentClass {
 		List<WebElement> mystudent = driver.findElements(By.tagName("option"));
 		
 		for (int i=0 ; i < mystudent.size();i++ ) {
-			i=i+3;
+	i=i+3;
 		
 			mystudent.get(i).click();
 			driver.findElement(By.xpath("//*[@id=\"remove\"]")).click();
